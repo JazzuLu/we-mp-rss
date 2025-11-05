@@ -16,7 +16,7 @@ if "%~1"=="-web" (
     set PUSH_FLAG=1
 ) else if "%~1"=="-m" (
     set COMMENT_FLAG=1
-    set USER_COMMENT="%~2"
+    set USER_COMMENT=%~2
     shift
 )
 shift
